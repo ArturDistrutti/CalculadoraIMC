@@ -1,5 +1,7 @@
 import '../css/global.css'
 import '../css/header.css'
+import '../css/estilo.css'
+import '../css/resultado.css'
 
 function Header(){
     return (

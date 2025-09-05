@@ -32,7 +32,7 @@ function App() {
       <div className="box"> 
         <Header/>
         <form>
-          <div>
+          <div className="altura">
             <label htmlfor="altura"><span>(exemplo:1.80)</span></label>
             <input
               type="number"
@@ -43,7 +43,7 @@ function App() {
             />
           </div>
 
-          <div>
+          <div className="peso">
             <label htmlfor="peso"><span>(exemplo:80)</span></label>
             <input
               type="number"
@@ -53,7 +53,9 @@ function App() {
               onChange={(e)=>setPeso(parseFloat(e.target.value))}
             />
           </div>
-          <button onClick={calcularImc}>Calcular</button>
+          <div className="botao">
+            <button onClick={calcularImc}>Calcular</button>
+          </div>
         </form>
       </div>
       {mostrarResultado &&(
