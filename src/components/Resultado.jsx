@@ -18,8 +18,8 @@ function Resultado({resultado}){
             <table className='tabela'>
                 <thead className='tabelaHeader'>
                     <tr>
-                        <th>Classificação</th>
-                        <th>IMC</th>
+                        <th>Classificação:</th>
+                        <th>IMC:</th>
                     </tr>
                 </thead>
                 <tbody className="tabelaBody">
