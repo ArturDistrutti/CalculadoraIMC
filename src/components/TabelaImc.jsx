@@ -31,7 +31,7 @@ const TabelaImc=(resultado)=>{
         return(
             <>
             <td>Obesidade Mórbida</td>
-            <td>Maior ou a 40</td>
+            <td>Igual ou maior que 40</td>
             </>
         );
     }
