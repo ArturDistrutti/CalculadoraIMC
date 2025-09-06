@@ -53,9 +53,7 @@ function App() {
               onChange={(e)=>setPeso(parseFloat(e.target.value))}
             />
           </div>
-          <div className="botao">
             <button onClick={calcularImc}>Calcular</button>
-          </div>
         </form>
       </div>
       {mostrarResultado &&(
